@@ -1,0 +1,7 @@
+repo: https://github.com/CC-Digital-Innovation/Almanac.git
+ssh_url: git@github.com:CC-Digital-Innovation/Almanac.git
+branch: main
+project_root: src
+image: almanac
+manifest_path: infra/cd/prod/deployment.yml
+pipeline: almanac
