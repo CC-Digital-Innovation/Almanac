@@ -84,6 +84,8 @@ def send_alert_to_microsoft_teams(error_message: ErrorMessage):
             )
         else:
             logger.info("Alert sent to Microsoft Teams successfully.")
+    
+    return {'response': 'success'}
 
 
 # Post error message to Azure DevOps.
@@ -140,3 +142,5 @@ def send_alert_to_azure_devops(error_message: ErrorMessage):
             )
         else:
             logger.info("Alert sent to Azure DevOps successfully.")
+    
+    return {'response': 'success'}
